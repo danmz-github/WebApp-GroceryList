@@ -1,0 +1,14 @@
+Daniel Zayas
+CS 415 - Design of Database Systems - Spring 2019
+Web App Assignment
+
+-- SQL -- 
+This is the SQL command needed to create the Grocery table for my web app:
+
+CREATE TABLE grocery (id INTEGER AUTO_INCREMENT, itemName VARCHAR(80) NOT NULL, itemType VARCHAR(80) NOT NULL, price DECIMAL(14, 2) NOT NULL, quantity INTEGER NOT NULL, PRIMARY KEY(id));
+
+-- CSV File --
+My CSV file, "Daniel Zayas_CS415_Spr19_Grocery.csv", can be imported into your
+phpMyAdmin database to input 15 records into the Grocery table.
+
+
